@@ -1,16 +1,14 @@
-/* wajp to swap two numbers using third variable. */
+/* wajp to swap two numbers without using third variable. */
 
 class Swap
 {
 public static void main(String args[])
 {
-int a=20, b=30;
+int a=25, b=35;
 System.out.println("a ="+a+"  "+"b ="+b);
-int c;
-
-c=a;
-a=b;
-b=c;
+a=a+b;
+b=a-b;
+a=a-b;
 System.out.println("a ="+a+"  "+"b ="+b);
 
 }
